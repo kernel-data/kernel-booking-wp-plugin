@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    build: .
+    restart: always
+    ports:
+      - 8443:443
+    environment:
+      WORDPRESS_DB_HOST: kernel-booking-wp-plugin_mysql_1
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./:/var/www/html/wp-content/plugins/kernel-booking
+  
+  mysql:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: root
