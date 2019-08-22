@@ -1,12 +1,12 @@
-# Kernel Booking Wordpress Plugin
+# Kernel Booking WordPress Plugin
 
-Easily embed Kernel Booking directly into your Wordpress site.
+Easily embed Kernel Booking directly into your WordPress site.
 
 **NOTE: You must have a [Kernel Booking](https://www.kernelbooking.co.uk) account to use this plugin**
 
 ## License
 
-The Kernel Booking Wordpress Plugin is licensed under the GPL v3 or later.
+The Kernel Booking WordPress Plugin is licensed under the GPL v3 or later.
 
 ```
 This program is free software: you can redistribute it and/or modify
