@@ -12,7 +12,7 @@ Easily embed Kernel Booking directly into your Wordpress site.
 
 == Description ==
 
-You can use this plugin to provide a shortcode that generates an embeded version of the [Kernel Booking system](https://www.kernelbooking.co.uk).
+You can use this plugin to provide a shortcode that generates an embedded version of the [Kernel Booking system](https://www.kernelbooking.co.uk).
 
 **NOTE: You must have an account with Kernel Booking for this plugin to work**
 
