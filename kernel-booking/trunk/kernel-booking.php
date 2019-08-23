@@ -42,10 +42,9 @@ add_shortcode('kernel-booking', function ($atts) {
 		$category = 'null';
 	}
 
-	return <<<HTML
-<div id="kernel-booking" style="width: 100%; max-width: 100%"></div>
-<script src="https://account.kernelbooking.co.uk/embed.js"></script>
-<script>
+	wp_enqueue_script('kernel-booking', 'https://account.kernelbooking.co.uk/embed.js');
+
+	$script = <<<SCRIPT
 kernel.init({
 	client: '$client',
 	el: '#kernel-booking',
@@ -53,6 +52,8 @@ kernel.init({
 	detailid: $detailid,
 	category: $category
 })
-</script>
-HTML;
+SCRIPT;
+	wp_add_inline_script('kernel-booking', $script);
+
+	return '<div id="kernel-booking" style="width: 100%; max-width: 100%"></div>';
 });

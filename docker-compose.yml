@@ -13,7 +13,7 @@ services:
       WORDPRESS_DB_PASSWORD: root
       WORDPRESS_DB_NAME: wordpress
     volumes:
-      - ./:/var/www/html/wp-content/plugins/kernel-booking
+      - ./kernel-booking/trunk:/var/www/html/wp-content/plugins/kernel-booking
   
   mysql:
     image: mysql:5.7
