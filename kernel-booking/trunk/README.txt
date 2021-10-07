@@ -2,7 +2,7 @@
 Contributors: kerneldata
 Tags: booking, reservations, embed, hosted
 Requires at least: 4.6
-Tested up to: 5.2
+Tested up to: 5.8
 Stable tag: trunk
 Requires PHP: 5.6.20
 License: GPLv3 or later
@@ -34,6 +34,9 @@ You do need a Kernel Booking account for this module to work, but if you don't a
 3. Embed Kernel Booking into any page by specifying your client alias (found in the URL when you are logged in) and page in the shortcode `[kernel-booking client="kernel-acres" page="search"]`
 
 == Changelog ==
+
+= 1.0.2 =
+* Update WP version
 
 = 1.0.1 =
 * Update branding
