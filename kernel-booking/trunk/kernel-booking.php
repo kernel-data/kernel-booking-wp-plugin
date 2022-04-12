@@ -6,7 +6,7 @@
  * Plugin Name:       Kernel Booking
  * Plugin URI:        https://www.kernelbooking.co.uk
  * Description:       Easily embed Kernel Booking into your Wordpress site.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            Kernel Data Ltd
  * Author URI:        https://www.kernel.co.uk
  * License:           GPL-3.0+
@@ -20,7 +20,7 @@ if (!defined('WPINC')) {
 }
 
 // Current version
-define('KERNEL_BOOKING_VERSION', '1.0.2');
+define('KERNEL_BOOKING_VERSION', '1.0.3');
 
 add_shortcode('kernel-booking', function ($atts) {
 	$a = shortcode_atts([
